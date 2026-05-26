@@ -32,6 +32,11 @@ Built a virtualized cybersecurity homelab using Proxmox VE to simulate enterpris
 ---
 
 ## Lab Architecture
+### Proxmox Infrastructure
+
+![Proxmox Dashboard](images/proxmox-dashboard.png)
+
+The homelab environment is hosted on Proxmox VE and includes Ubuntu Server, Kali Linux, and Windows virtual machines used for infrastructure management, security monitoring, network analysis, and SOC-style investigation workflows.
 
 
 ---
