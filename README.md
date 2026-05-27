@@ -56,6 +56,19 @@ Configured Uptime Kuma to monitor the availability and health of self-hosted inf
 
 Used Portainer to manage Docker containers, stacks, networks, and self-hosted services within the homelab environment. Implemented containerized infrastructure for monitoring, DNS filtering, dashboards, and security testing applications.
 
+## Wireshark DNS Traffic Analysis
+
+![Wireshark DNS Analysis](images/wireshark-dns-analysis.png)
+
+Captured and analysed live DNS traffic using Wireshark within the homelab environment. Practised packet inspection, protocol filtering, DNS query and response analysis, and network traffic investigation to better understand client-server communication and DNS resolution behaviour.
+
+Key activities performed:
+- DNS traffic capture and filtering
+- Packet-level inspection of DNS queries and responses
+- Analysis of IPv4 and IPv6 DNS records
+- Investigation of CNAME and AAAA record resolution
+- Network troubleshooting and traffic visibility exercises
+
 ---
 
 ## Security Activities
