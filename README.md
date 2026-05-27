@@ -95,6 +95,19 @@ Security controls implemented:
 - SSH access management
 - Basic Linux host hardening
 
+## SSH Protection with Fail2ban
+
+![Fail2ban SSH Protection](images/fail2ban-sshd.png)
+
+Implemented Fail2ban on the Ubuntu Docker host to monitor authentication logs and protect SSH services against brute-force attacks. Configured the sshd jail to automatically detect and block repeated failed login attempts.
+
+Security measures implemented:
+- SSH brute-force protection
+- Automated IP banning
+- Authentication log monitoring
+- Linux host hardening
+- Basic intrusion prevention
+
 ---
 
 ## Security Activities
