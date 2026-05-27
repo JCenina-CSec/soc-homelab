@@ -50,6 +50,12 @@ Implemented Pi-hole for DNS filtering, visibility, and network telemetry monitor
 
 Configured Uptime Kuma to monitor the availability and health of self-hosted infrastructure and Docker services. Used to track outages, service interruptions, response failures, and uptime statistics across the homelab environment.
 
+## Docker Container Management
+
+![Portainer Dashboard](images/portainer-dashboard.png)
+
+Used Portainer to manage Docker containers, stacks, networks, and self-hosted services within the homelab environment. Implemented containerized infrastructure for monitoring, DNS filtering, dashboards, and security testing applications.
+
 ---
 
 ## Security Activities
