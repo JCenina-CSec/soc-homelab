@@ -69,6 +69,19 @@ Key activities performed:
 - Investigation of CNAME and AAAA record resolution
 - Network troubleshooting and traffic visibility exercises
 
+## Network Reconnaissance with Nmap
+
+![Nmap Service Enumeration](images/nmap-service-enumeration.png)
+
+Performed network reconnaissance and service enumeration using Nmap from a Kali Linux virtual machine within the homelab environment. Identified exposed services, open ports, and running applications to better understand infrastructure visibility and attack surface exposure.
+
+Activities performed:
+- TCP port scanning
+- Service and version detection
+- Host discovery and enumeration
+- Infrastructure exposure assessment
+- Basic attack surface analysis
+
 ---
 
 ## Security Activities
