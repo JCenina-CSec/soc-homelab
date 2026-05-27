@@ -1,7 +1,7 @@
 # SOC Homelab
 
 ## Overview
-Built a virtualized cybersecurity homelab using Proxmox VE to simulate enterprise-style infrastructure and SOC workflows.
+Built a virtualised cybersecurity homelab using Proxmox VE to simulate enterprise-style infrastructure and SOC workflows.
 
 ---
 
@@ -19,20 +19,32 @@ Built a virtualized cybersecurity homelab using Proxmox VE to simulate enterpris
 
 ---
 
-## Skills Practiced
-- Network analysis
-- Linux hardening
-- DNS monitoring
-- Vulnerability investigation
-- Service monitoring
-- Incident documentation
-- Virtualization
-- Infrastructure troubleshooting
-
----
 
 ## Lab Architecture
-### Proxmox Infrastructure
+
+![Network Diagram](images/network-diagram.png)
+
+The homelab environment was designed to simulate a small enterprise-style infrastructure using virtualised systems hosted on Proxmox VE. The environment includes monitoring, DNS visibility, containerised services, and a dedicated Kali Linux virtual machine for security testing and network analysis activities.
+
+### Core Components
+- **Proxmox VE Host** running on HP OMEN hardware
+- **Ubuntu Docker Host VM** for self-hosted infrastructure services
+- **Kali Linux VM** for security testing and reconnaissance
+- **Dockerized services** including:
+  - Homepage dashboard
+  - Pi-hole DNS filtering and visibility
+  - Uptime Kuma monitoring
+  - Portainer container management
+
+### Skills Demonstrated
+- Virtualisation and infrastructure deployment
+- Docker container management
+- Linux administration and hardening
+- Network monitoring and DNS analysis
+- Security testing and reconnaissance
+- Service monitoring and infrastructure visibility
+
+## Virtualisation Infrastructure
 
 ![Proxmox Dashboard](images/proxmox-dashboard.png)
 
@@ -48,13 +60,15 @@ Implemented Pi-hole for DNS filtering, visibility, and network telemetry monitor
 
 ![Uptime Kuma Dashboard](images/Up-time-kuma-dashboard.png)
 
-Configured Uptime Kuma to monitor the availability and health of self-hosted infrastructure and Docker services. Used to track outages, service interruptions, response failures, and uptime statistics across the homelab environment.
+Configured Uptime Kuma to monitor the availability and status of self-hosted infrastructure and Docker services. Used to track outages, service interruptions, response failures, and uptime statistics across the homelab environment.
 
 ## Docker Container Management
 
 ![Portainer Dashboard](images/portainer-dashboard.png)
 
 Used Portainer to manage Docker containers, stacks, networks, and self-hosted services within the homelab environment. Implemented containerized infrastructure for monitoring, DNS filtering, dashboards, and security testing applications.
+Services were deployed and managed through Docker containers to simplify infrastructure management, service isolation, and service monitoring within the homelab environment.
+
 
 ## Wireshark DNS Traffic Analysis
 
@@ -110,6 +124,18 @@ Security measures implemented:
 
 ---
 
+## Skills Practised
+- Network analysis
+- Linux hardening
+- DNS monitoring
+- Vulnerability investigation
+- Service monitoring
+- Incident documentation
+- Virtualization
+- Infrastructure troubleshooting
+
+---
+
 ## Security Activities
 - Nmap reconnaissance
 - Wireshark packet analysis
@@ -117,6 +143,17 @@ Security measures implemented:
 - SSH hardening
 - UFW firewall configuration
 - Fail2ban deployment
+
+---
+
+## Key Takeaways
+- Built and managed a virtualised cybersecurity lab environment
+- Practised Linux administration and infrastructure hardening
+- Performed network reconnaissance and packet analysis
+- Implemented monitoring, DNS visibility, and service health tracking
+- Documented security-focused infrastructure and operational workflows
+
+This homelab continues to evolve as a platform for developing practical cybersecurity, infrastructure, monitoring, and SOC analysis skills through hands-on experimentation and documentation.
 
 ---
 
