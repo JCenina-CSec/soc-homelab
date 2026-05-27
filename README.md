@@ -82,6 +82,19 @@ Activities performed:
 - Infrastructure exposure assessment
 - Basic attack surface analysis
 
+## Linux Firewall Hardening with UFW
+
+![UFW Firewall Configuration](images/ufw-firewall.png)
+
+Implemented and configured UFW (Uncomplicated Firewall) on the Ubuntu Docker host to restrict inbound traffic and control exposed services within the homelab environment. Applied firewall rules to secure management interfaces and self-hosted services while maintaining required service accessibility.
+
+Security controls implemented:
+- Inbound traffic filtering
+- Default deny policy for incoming connections
+- Controlled exposure of service ports
+- SSH access management
+- Basic Linux host hardening
+
 ---
 
 ## Security Activities
