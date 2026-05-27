@@ -1,5 +1,8 @@
 # SOC Homelab
 
+## Project Status
+Actively developing and expanding the homelab with SIEM integration, Active Directory services, and SOC alert simulation workflows.
+
 ## Overview
 Built a virtualised cybersecurity homelab using Proxmox VE to simulate enterprise-style infrastructure and SOC workflows.
 
