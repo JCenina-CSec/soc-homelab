@@ -38,6 +38,17 @@ Built a virtualized cybersecurity homelab using Proxmox VE to simulate enterpris
 
 The homelab environment is hosted on Proxmox VE and includes Ubuntu Server, Kali Linux, and Windows virtual machines used for infrastructure management, security monitoring, network analysis, and SOC-style investigation workflows.
 
+## Pi-hole DNS Monitoring
+
+![Pi-hole Dashboard](images/Pi-Hole-dashboard.png)
+
+Implemented Pi-hole for DNS filtering, visibility, and network telemetry monitoring within the homelab environment. Used to analyse DNS activity, blocked queries, client behaviour, and upstream resolver activity.
+
+## Service Monitoring with Uptime Kuma
+
+![Uptime Kuma Dashboard](images/Up-time-kuma-dashboard.png)
+
+Configured Uptime Kuma to monitor the availability and health of self-hosted infrastructure and Docker services. Used to track outages, service interruptions, response failures, and uptime statistics across the homelab environment.
 
 ---
 
